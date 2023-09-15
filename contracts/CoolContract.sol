@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "contracts/ERC721A.sol";
 
-contract COolContract is ERC721A, Ownable, ReentrancyGuard {
+contract CoolContract is ERC721A, Ownable, ReentrancyGuard {
     using Address for address;
     using Strings for uint;
 
